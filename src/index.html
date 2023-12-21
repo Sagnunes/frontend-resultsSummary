@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png" />
+    <link
+      rel="stylesheet"
+      href="../dist/output.css" />
+    <link
+      rel="stylesheet"
+      href="../dist/output.css" />
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main
+      class="container mt-0 flex flex-col items-center justify-center rounded-3xl md:mx-auto md:my-12 md:w-fit md:flex-row">
+      <aside
+        class="flex h-3/4 flex-col items-center space-y-9 rounded-b-3xl bg-gradient-to-b from-lightSlateBlue to-lightRoyalBlue py-9 md:w-1/2 md:space-y-12 md:rounded-3xl md:py-12">
+        <p class="font-hankenGrotesk text-xl font-bold text-lightLavender">
+          Your Results
+        </p>
+        <div
+          class="flex flex-col items-center justify-between rounded-full bg-gradient-to-b from-violetBlue to-persianBlue px-9 py-7">
+          <h2 class="font-hankenGrotesk text-6xl font-bold text-white">76</h2>
+          <span class="font-hankenGrotesk text-base text-lightLavender"
+            >of 100</span
+          >
+        </div>
+        <div
+          class="flex w-3/4 flex-col items-center justify-between space-y-3 text-center md:w-3/5">
+          <h2 class="font-hankenGrotesk text-3xl font-bold text-white">
+            Great
+          </h2>
+          <p class="font-hankenGrotesk text-lg font-bold text-lightLavender">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+      </aside>
+      <aside
+        class="container flex h-3/4 flex-col items-start space-y-3 p-7 md:w-1/3 md:space-y-8 md:rounded-2xl md:shadow-2xl">
+        <h4 class="font-hankenGrotesk text-xl font-bold text-darkGrayBlue">
+          Summary
+        </h4>
+        <div class="container flex flex-col space-y-5">
+          <div class="rounded-md bg-lightRed-light bg-opacity-20 p-3">
+            <div class="flex flex-row justify-between space-x-2">
+              <div class="flex flex-row space-x-2">
+                <img
+                  src="./assets/images/icon-reaction.svg"
+                  alt="reaction-svg" />
+                <p class="font-hankenGrotesk font-bold text-lightRed-default">
+                  Reaction
+                </p>
+              </div>
+              <div class="flex flex-row space-x-1">
+                <p class="font-hankenGrotesk font-bold text-darkGrayBlue">80</p>
+                <p class="font-hankenGrotesk font-semibold text-gray-400">
+                  / 100
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container flex flex-col space-y-5">
+          <div class="rounded-md bg-orangey-light bg-opacity-20 p-3">
+            <div class="flex flex-row justify-between space-x-2">
+              <div class="flex flex-row space-x-2">
+                <img
+                  src="./assets/images/icon-memory.svg"
+                  alt="memory-svg" />
+                <p class="font-hankenGrotesk font-bold text-orangey-default">
+                  Memory
+                </p>
+              </div>
+              <div class="flex flex-row space-x-1">
+                <p class="font-hankenGrotesk font-bold text-darkGrayBlue">92</p>
+                <p class="font-hankenGrotesk font-semibold text-gray-400">
+                  / 100
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container flex flex-col space-y-5">
+          <div class="rounded-md bg-greenTeal-light bg-opacity-20 p-3">
+            <div class="flex flex-row justify-between space-x-2">
+              <div class="flex flex-row space-x-2">
+                <img
+                  src="./assets/images/icon-verbal.svg"
+                  alt="verbal-svg" />
+                <p class="font-hankenGrotesk font-bold text-greenTeal-default">
+                  Verbal
+                </p>
+              </div>
+              <div class="flex flex-row space-x-1">
+                <p class="font-hankenGrotesk font-bold text-darkGrayBlue">61</p>
+                <p class="font-hankenGrotesk font-semibold text-gray-400">
+                  / 100
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container flex flex-col space-y-5">
+          <div class="rounded-md bg-cobaltBlue-light bg-opacity-20 p-3">
+            <div class="flex flex-row justify-between space-x-2">
+              <div class="flex flex-row space-x-2">
+                <img
+                  src="./assets/images/icon-visual.svg"
+                  alt="visual-svg" />
+                <p class="font-hankenGrotesk font-bold text-cobaltBlue-default">
+                  Visual
+                </p>
+              </div>
+              <div class="flex flex-row space-x-1">
+                <p class="font-hankenGrotesk font-bold text-darkGrayBlue">72</p>
+                <p class="font-hankenGrotesk font-semibold text-gray-400">
+                  / 100
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="container rounded-3xl bg-darkGrayBlue from-lightSlateBlue to-lightRoyalBlue p-4 font-hankenGrotesk text-white hover:bg-gradient-to-b">
+          Continue
+        </button>
+      </aside>
+    </main>
+    <div class="attribution">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Sérgio Nunes</a>.
+    </div>
+  </body>
+</html>
